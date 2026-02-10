@@ -4,8 +4,13 @@ This document explains the structure and styling of the final project in `css/fi
 
 
 ## Live class recording
+
+## Live class recording
 [Watch the live class](https://youtube.com/live/yk9OcLblX3g)
 
+```
+https://youtube.com/live/yk9OcLblX3g
+```
 
 [![Live class recording](https://img.youtube.com/vi/yk9OcLblX3g/hqdefault.jpg)](https://youtube.com/live/yk9OcLblX3g)
 
