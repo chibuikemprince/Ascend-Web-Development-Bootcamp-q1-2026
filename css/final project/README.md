@@ -7,6 +7,9 @@ This document explains the structure and styling of the final project in `css/fi
 ```
 https://youtube.com/live/yk9OcLblX3g
 ```
+[![Live class recording](https://img.youtube.com/vi/yk9OcLblX3g/hqdefault.jpg)](https://youtube.com/live/yk9OcLblX3g)
+
+
 
 ## Folder contents
 - `index.html`: Page structure (header, hero, features, gallery, footer)
