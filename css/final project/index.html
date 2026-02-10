@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Real Responsive Website Section</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <header class="header">
+                <div class="brand">Dev Bootcamp</div>
+
+                <nav class="nav" id="nav">
+                        <a href="">Home</a>
+                        <a href="">Programs</a>
+                        <a href="">Programs</a>
+                        <a href="">Contact</a>
+                </nav>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Open menu">...</button>
+        </header>
+
+        <main class="container">
+                <section class="hero">
+                        <div class="hero-text">
+                                <h1>Build Real Responsive Websites</h1>
+                                <p>Learn mobile-first design, media queries, Flexbox, Grid, and animations
+                                        by building production-style layouts.
+                                </p>
+
+                                <div class="actions">
+                                        <a class="btn primary" href=""> Start Learning</a>
+                                        <a class="btn" href=""> See Projects</a>
+                                </div>
+                        </div>
+
+                        <div class="hero-card">
+                                <h3>What you'll master</h3>
+                                <ul>
+                                        <li> Mobile-first Layout</li>
+                                        <li> Media Queries</li>
+                                        <li> Flexbox Alignment</li>
+                                        <li> Grid Alignment</li>
+                                        <li> Transitions and Animations</li>
+                                </ul>
+                        </div>
+                </section>
+
+                <section class="features">
+                        <h2> Features</h2>
+
+                        <div class="feature-grid">
+                                <article class="feature">
+                                        <h3>Fast Layout</h3>
+                                        <p> Use Grid + Flexbox the way real developers do.</p>
+                                </article>
+
+                                <article class="feature">
+                                        <h3>Responsive by Default</h3>
+                                        <p> Start Mobile-first, then upgrade at breakpoints.</p>
+                                </article>
+
+                                <article class="feature">
+                                        <h3>Polished Ui</h3>
+                                        <p> Start transitions and micro-animations for professional feel.</p>
+                                </article>
+
+                                <article class="feature">
+                                        <h3>Modern Patterns</h3>
+                                        <p>Auto fits grids, wrapping cards, sticky headers.</p>
+                                </article>
+                        </div>
+                </section>
+
+                <section class="gallery">
+                        <h2>Responsive Gallery (Grid)</h2>
+                        <div class="gallery-grid">
+                                <div class="tile">1</div>
+                                <div class="tile">2</div>
+                                <div class="tile">3</div>
+                                <div class="tile">4</div>
+                                <div class="tile">5</div>
+                                <div class="tile">6</div>                              
+                        </div>
+                </section>
+        </main>
+
+        <footer class="footer">
+                <p>&copy; Softzenith Development Bootcamp</p>
+        </footer>
+</body>
+
+<script>
+        const menuBtn = document.getElementById("menuBtn");
+        const nav = document.getElementById("nav");
+
+        menuBtn.addEventListener("click", () => {
+                nav.classList.toggle("open");
+        })
+</script>
+</html>
+
+</html>
